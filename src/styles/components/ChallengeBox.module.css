@@ -37,7 +37,8 @@
 }
 
 .challengeNotActive p img {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 200px;
 }
 
 .challengeActive {
@@ -48,7 +49,7 @@
 }
 
 .challengeActive header {
-    color: var(--blue);
+    color: var(--dark-red);
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
@@ -99,14 +100,28 @@
 }
 
 .challengeActive footer button.challengeFailedButton {
-    background: var(--red);
+    background: var(--white);
+    border: 2px solid var(--text);
+    color: var(--text);
+    transition: background 0.2s;
+}
+
+.challengeActive footer button.challengeFailedButton:hover {
+    background: #ffffff;
+    border: 2px solid var(--title);
+    color: var(--title);
 }
 
 .challengeActive footer button.challengeSucceededButton {
     background: var(--green);
+    transition: background 0.2s;
 }
 
-.challengeActive footer button:hover {
-    filter: brightness(0.9);
+.challengeActive footer button.challengeSucceededButton:hover {
+    background: var(--dark-green);
 }
+
+/* .challengeActive footer button:hover {
+    filter: brightness(1.05);
+} */
 
