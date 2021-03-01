@@ -9,9 +9,10 @@
 <br>
 
 ## Sobre o projeto 💬
-O **Pomo.up** é uma aplicação web que combina a técnica de Pomodoro, que aumenta o foco e a produtividade, com exercícios físicos para o corpo e para os olhos, indicada para quem passa muito tempo em frente ao computador.
+O **Pomo.up** é uma aplicação web que combina a técnica de Pomodoro, que aumenta o foco e a produtividade, com exercícios físicos para o corpo e para os olhos, indicada para quem passa muito tempo em frente ao computador. Desenvolvida durante a **Next Level Week #4**, um evento online [Rocketseat](https://github.com/Rocketseat)
 
-Está aplicação foi desenvolvida durante a **Next Level Week #4**, um evento online [Rocketseat](https://github.com/Rocketseat)
+### Como funciona?
+A cada ciclo de 25min surge um desafio para se exercitar. Cada desafio possui uma quantidade de xp, acumulando certa quantidade de xp, é possível subir de level!
 
 ## Tecnologias 🛠
 Desenvolvido utilizando as seguintes tecnologias:
